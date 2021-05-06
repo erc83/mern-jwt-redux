@@ -16,6 +16,7 @@ const App = () => {
     useEffect(() => {
         dispatch(getPosts());
     }, [currentId, dispatch]);
+    //currentId refresca la pagina al editar
 
     return ( 
         <Container maxidth="lg">
